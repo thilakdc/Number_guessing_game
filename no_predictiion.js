@@ -40,7 +40,7 @@ const number=Math.floor(Math.random()*100+1);
         e.preventDefault();
         console.log("clicked");
         human_num=Number(num.value);
-        console.log(human_num)
+        console.log(human_num);
         if(human_num===number){
             count++;
             window.location.href=`last_page.html?attempt=${count}`;
